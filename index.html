@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Victor+Mono:wght@100&display=swap" rel="stylesheet">
+  <style>
+    .flag{
+      background-color: #CE1126 ;
+      width: 900px;
+      height: 600px;
+      position: relative;
+    }
+
+    .flag > div{
+      background-color: #002868 ;
+      width: 100%; /*the width we want to be 100% the width of it's parent -> .flag */
+      height: 300px;
+      position: absolute;
+      top: 150px;
+    }
+
+    .flag div>p{
+      background-color: white;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50px;
+      left: 350px;
+      margin: 0;
+    }
+    
+    .flag > p{
+      color:whitesmoke;
+      text-align: center;
+      position: relative;
+      font-size: 5rem;
+      margin-top: 0;
+    }
+
+    .flag > div > div > p{
+      font-size: 5rem;
+      color: black;
+      text-align: center !important;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <h1>The Flags of Two Geographically Opposite Nations </h1>
+<br>
+<br>
+<br>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+  <div class="danishflag">
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class="third"></div>
+    <div class="fourth">
+      <p>The Flag of Denmark</p>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+<footer> © Thalia-Maria Tsioni. All rights reserved.  </footer>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+h1{
+    font-family: 'Monoton', cursive;
+    font-size: 3rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.danishflag{
+    background-color: gainsboro;
+    width: 900px;
+    height: 600px;
+    position: relative;
+}
+
+.first{
+    background-color:  rgb(198, 12, 48);
+    width: 250px;
+    height: 280px;
+    position: absolute;
+}
+
+.second{
+    background-color:  rgb(198, 12, 48);
+    width: 600px;
+    height: 280px;
+    position: absolute;
+    left: 300px;
+}
+
+.third{
+   background-color:  rgb(198, 12, 48); 
+   width: 250px;
+   height: 280px;
+   position: absolute;
+   top: 320px;
+}
+
+.fourth{
+    background-color:  rgb(198, 12, 48);
+    width: 600px;
+    height: 280px;
+    position: absolute; 
+    left: 300px;
+    top: 320px;
+}
+
+.fourth > p{
+    text-align: center;
+    font-family: 'Victor Mono', monospace;
+    font-size: xx-large;
+    font-weight: 999;
+    position: relative;
+    top: 160px;
+    left: 50px;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Victor Mono', monospace;
+    font-size: large;
+}
